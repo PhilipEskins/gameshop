@@ -10,12 +10,58 @@
   </head>
   <body>
     <div class="container">
+
       <div class="row">
         <div class="col-lg-12">
-          <h1>Epicodus Games</h1>
+          <ul id="navbar">
+            <li id="one">Item 1</li>
+            <li id="two">Item 2</li>
+            <li id="three"><button type="button" class="submit" value="checkout">Checkout</button></li>
+          </ul>
+          <div class="row">
+            <div class="col-lg-12">
+              <h1>Epicodus Games</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="shopping">
+
+      <div class="row">
+        <div class="col-lg-3">
+          <h3>Final Fantasy</h3>
+          <img src="img/ff.jpg" alt="Final Fantasy">
+          <button class="add-game" type="button" value="Final-Fantasy">Add</button>
+          <button class="remove-game" type="button" value="Final-Fantasy">Remove</button>
+        </div>
+
+        <div class="col-lg-3">
+          <h3>Fallout</h3>
+          <img src="img/fallout.jpg" alt="Fallout">
+          <button class="add-game" type="button" value="Fallout">Add</button>
+          <button class="remove-game" type="button" value="Fallout">Remove</button>
+        </div>
+
+        <div class="col-lg-3">
+          <h3>Lode Runner</h3>
+          <img src="img/lr.png" alt="Lode Runner">
+          <button class="add-game" type="button" value="Lode-Runner">Add</button>
+          <button class="remove-game" type="button" value="Lode-Runner">Remove</button>
         </div>
       </div>
 
     </div>
+
+    <div class="container" id="checkout">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Checkout</h2>
+          <div id="checkoutPrintout"></div>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
